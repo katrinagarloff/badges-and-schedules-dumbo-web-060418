@@ -21,8 +21,11 @@ def printer(names)
 badges = batch_badge_creator(names) 
 speakers_in_room = assign_rooms(names)
  
- puts badges
- puts speakers_in_room
+ badges.each_with_index do |name, index|
+   puts name
+   puts speakers_in_room[index]
+ end 
+ 
  end
  
  printer(["bob", "suzanne"])   
