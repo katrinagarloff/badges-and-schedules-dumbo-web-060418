@@ -12,7 +12,7 @@ def assign_rooms(speakers)
   speakers_in_room = []
   
   speakers.each_with_index do |speaker, room|
-    speakers_in_room.push("Hello, #{speaker}! You'll be assigned to room #{index+1}!")
+    speakers_in_room.push("Hello, #{speaker}! You'll be assigned to room #{room+1}!")
   end
 end
 
