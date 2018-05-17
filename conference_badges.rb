@@ -28,7 +28,7 @@ speakers_in_room = assign_rooms(names)
  
  end
  
- printer(["bob", "suzanne"])   
+ #printer(["bob", "suzanne"])   
   
   
     
