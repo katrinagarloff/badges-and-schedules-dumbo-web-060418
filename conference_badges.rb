@@ -18,6 +18,7 @@ def assign_rooms(speakers)
 end
 
 def printer(names)
+  names.each 
   
   
     
