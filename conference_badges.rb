@@ -7,4 +7,8 @@ def batch_badge_creator(names)
   end
   return badges
 end
-puts batch_badge_creator(["dorothy", "arnold"])
+
+def assign_rooms(speakers)
+  
+  speakers.each do |speaker|
+    
