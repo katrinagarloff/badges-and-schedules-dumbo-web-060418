@@ -1,5 +1,5 @@
 # Write your code here.
-def badge_maker(names)
+def batch_badge_creator(names)
   badges = []
   
   names.each do |name|
@@ -7,3 +7,4 @@ def badge_maker(names)
   end
   return badges
 end
+puts badges(["dorothy", "arnold"])
