@@ -7,4 +7,4 @@ def batch_badge_creator(names)
   end
   return badges
 end
-puts badges(["dorothy", "arnold"])
+puts batch_badge_creator(["dorothy", "arnold"])
