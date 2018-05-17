@@ -2,5 +2,5 @@
 def batch_badge_creator(names)
   badges = []
   
-  for i in 
+  
   
