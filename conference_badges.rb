@@ -22,7 +22,7 @@ badges = batch_badge_creator(names)
 speakers_in_room = assign_rooms(names)
  
  puts badges
- puts speakers
+ puts speakers_in_room
  end
  
  printer(["bob", "suzanne"])   
