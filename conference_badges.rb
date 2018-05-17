@@ -17,5 +17,6 @@ def assign_rooms(speakers)
   return speakers_in_room
 end
 
-puts assign_rooms(["george", "bethany"])
+def printer
+  
     
